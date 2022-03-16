@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.recentScore {
+  justify-content: flex-start;
+}
+
+.recentScore > button,
+.recentScore > h2 {
+  display: inline;
+}
+
+.addScore {
+  justify-content: flex-end;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
