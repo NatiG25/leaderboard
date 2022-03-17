@@ -9,7 +9,7 @@ const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/game
 
 submitBtn.addEventListener('click', async (e) => {
   e.preventDefault();
-  const settings =  {
+  const settings = {
     method: 'POST',
     headers: {
       'Content-type': 'application/json; charset=UTF-8',
@@ -25,13 +25,12 @@ submitBtn.addEventListener('click', async (e) => {
   score.value = '';
 
   try {
-      const fetchResponse = await fetch(url, settings);
-      const response = await fetchResponse.json();
-      return response;
+    const fetchResponse = await fetch(url, settings);
+    const response = await fetchResponse.json();
+    return response;
   } catch (e) {
-      return e;
+    return e;
   }
-
 });
 
 const getAPI = async () => {
@@ -39,7 +38,6 @@ const getAPI = async () => {
   const resJson = await res.json();
   return resJson;
 };
-
 
 const displayScore = (array) => {
   array.forEach((item) => {
