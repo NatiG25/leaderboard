@@ -2,7 +2,7 @@
 
 # leaderboard
 
-> This web application is a simple Leaderboard set up.
+> This web application is a simple Leaderboard. Where the user can type his name along with his score.
 
 ## Built With
 
