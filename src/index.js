@@ -7,9 +7,9 @@ const refreshBtn = document.querySelector('.refreshBtn');
 const scoreList = document.querySelector('.scoreList');
 const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/aJpln9nj3naXwqc1haiG/scores/';
 
-submitBtn.addEventListener('click', (e) => {
+submitBtn.addEventListener('click', async (e) => {
   e.preventDefault();
-  fetch(url, {
+  const settings =  {
     method: 'POST',
     headers: {
       'Content-type': 'application/json; charset=UTF-8',
@@ -19,11 +19,19 @@ submitBtn.addEventListener('click', (e) => {
       score: score.value,
     }),
 
-  })
-    .then((response) => response.json())
-    .then((json) => json).catch((error) => error);
+  };
+
   name.value = '';
   score.value = '';
+
+  try {
+      const fetchResponse = await fetch(url, settings);
+      const response = await fetchResponse.json();
+      return response;
+  } catch (e) {
+      return e;
+  }
+
 });
 
 const getAPI = async () => {
@@ -31,6 +39,7 @@ const getAPI = async () => {
   const resJson = await res.json();
   return resJson;
 };
+
 
 const displayScore = (array) => {
   array.forEach((item) => {
