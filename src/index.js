@@ -1,5 +1,4 @@
-import './styles/style.css';
-import './styles/reset.css';
+import './style.css';
 import { displayScore, scoreList } from './modules/dom.js';
 import { sendAPI, getAPI } from './modules/utils.js';
 

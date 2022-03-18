@@ -1,5 +1,10 @@
 body {
-  /* background-color: aqua; */
+  background-color: #E36166;
+}
+
+h1 {
+  font-size: 9rem;
+  color: aqua;
 }
 
 .container {
@@ -18,6 +23,10 @@ body {
 
 .addScore {
   justify-content: flex-end;
+}
+
+.addHeader {
+  background-color: black;
 }
 
 form {
