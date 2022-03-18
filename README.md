@@ -9,7 +9,6 @@
 - HTML
 - JS
 - CSS
-- VScode
 - Webpack
 
 ## Getting Started
