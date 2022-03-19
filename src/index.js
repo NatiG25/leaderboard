@@ -10,7 +10,6 @@ submitBtn.addEventListener('click', (e) => {
   sendAPI();
 });
 
-
 refreshBtn.addEventListener('click', async () => {
   const data = await getAPI();
   scoreList.innerHTML = '';
