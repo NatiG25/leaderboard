@@ -2,11 +2,11 @@ body {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: normal;
-  background-color: #D7C49EFF;
+  background-color: #d7c49eff;
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 2rem;
   margin: 15px 17rem;
   color: white;
 }
@@ -14,7 +14,7 @@ body {
 .container {
   display: flex;
   justify-content: space-evenly;
-  background-color: #343148FF;
+  background-color: #343148ff;
   padding: 2.5rem;
   color: white;
   margin: 0 20%;
@@ -89,7 +89,7 @@ body {
 }
 
 .footer {
-  position: absolute;
+  position: fixed;
   width: 100%;
   height: 50px;
   bottom: 0;
@@ -98,93 +98,7 @@ body {
   align-items: center;
   background-color: #000;
   color: white;
+  margin-bottom: 0;
 }
 
 /* Reset CSS */
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-}
