@@ -46,6 +46,9 @@ body {
 
 .scoreList {
   list-style: none;
+  overflow-y: auto;
+  height: 50vh;
+  padding: 5%;
 }
 
 .scoreItem {
@@ -99,4 +102,11 @@ body {
   background-color: #000;
   color: white;
   margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+ .container {
+  display: flex;
+  flex-direction: column;
+ } 
 }
