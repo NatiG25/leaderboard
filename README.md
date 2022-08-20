@@ -2,10 +2,9 @@
 
 # Leaderboard
 
+> The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
+
 ![Screenshot from 2022-03-19 19-06-12](https://user-images.githubusercontent.com/86069740/159131021-4d834a24-0ed1-4555-9896-220355da3325.png)
-
-
-> This website allows users to type in their names and scores. Both name & score are sent to an API(leaderboard). Data is also retrieved from the API.
 
 ## Built With
 
@@ -38,11 +37,9 @@ Run `npm start` for development. Run `npm run build` for production.
 
 ## Authors
 
-👤 **Author1**
-
-- GitHub: [@NatiG25](https://github.com/NatiG25)
-- Twitter: [@NatiG87702270](https://twitter.com/NatiG87702270)
-- LinkedIn: [@Temesgen G/gorgis](https://linkedin.com/in/temesgen-g-gorgis-0910a6229 )
+- GitHub: [@NatiG](https://github.com/NatiG25)
+- Twitter: [@NatiG](https://twitter.com/NatiG87702270)
+- LinkedIn: [@Nati G/gorgis](https://linkedin.com/in/temesgen-g-gorgis-0910a6229 )
 
 ## 🤝 Contributing
 
