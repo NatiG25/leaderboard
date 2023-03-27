@@ -39,9 +39,9 @@ Run `npm start` for development. Run `npm run build` for production.
 
 ## Authors
 
-- GitHub: [@NatiG](https://github.com/NatiG25)
-- Twitter: [@NatiG](https://twitter.com/NatiG87702270)
-- LinkedIn: [@Nati G/gorgis](https://linkedin.com/in/temesgen-g-gorgis-0910a6229 )
+- GitHub: [@NatiG25](https://github.com/NatiG25)
+- Twitter: [@NatiG255](https://twitter.com/NatiG255)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/natigebregorgis/)
 
 ## 🤝 Contributing
 
